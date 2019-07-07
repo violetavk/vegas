@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write src/**/*.{js,jsx}",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    },
+    "dependencies": {
+        "gatsby": "^2.10.4",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "gatsby-plugin-no-sourcemaps": "^2.1.0",
+        "prettier": "^1.18.2"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "es5"
+    }
+}
