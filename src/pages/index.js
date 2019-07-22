@@ -2,10 +2,7 @@ import React from "react";
 import TitleScreen from "../components/titleScreen";
 
 export default () => (
-    <>
+    <div className="container">
         <TitleScreen />
-        {/* <p>More text here</p>
-        <p>And more here</p>
-        <p>And some more here</p> */}
-    </>
+    </div>
 );

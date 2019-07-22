@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Assistant:700&display=swap");
+
+.container {
+    background-image: url("../styles/cactus-background-small.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.names {
+    font-family: "Cairo", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    color: darkslategrey;
+    margin-bottom: 10%;
+}
+
+.gettingMarried {
+    font-family: "Assistant", sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: darkslategrey;
+    word-wrap: normal;
+    line-height: 1em;
+}
+
+.highLevelInfo {
+    color: darkslategrey;
+    letter-spacing: 0.09em;
+    font-family: "Arvo", serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
