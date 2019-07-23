@@ -1,0 +1,45 @@
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.header {
+    font-family: "Assistant", sans-serif;
+    font-size: 2.5em;
+    padding: 0 0 1.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    color: darkslategrey;
+}
+
+.description {
+    color: darkslategrey;
+    letter-spacing: 0.09em;
+    font-family: "Arvo", serif;
+    font-size: 1.1em;
+    width: 60%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.subheader {
+    font-family: "Assistant", sans-serif;
+    font-size: 1.5em;
+    margin: 3.5em 0 1rem 0;
+    color: #3e9241;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+
+.details {
+    font-family: "Arvo", serif;
+    font-size: 1.1em;
+    letter-spacing: 0.09em;
+    line-height: 1.5em;
+    text-align: center;
+    color: darkslategrey;
+}
