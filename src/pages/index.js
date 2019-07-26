@@ -6,6 +6,6 @@ export default () => (
     <div className="container">
         <TitleScreen />
         <Location />
-        <div className="footer"></div>
+        {/* <div className="footer"></div> */}
     </div>
 );
